@@ -16,23 +16,33 @@ export type DeviceCategory = {
 };
 
 export const devicesData: DeviceCategory = {
-	OnePlus: [
+	iPhone: [
 		{
-			name: "OnePlus 13T",
-			image: "/images/device/oneplus13t.png",
-			specs: "Gray / 16G + 1TB",
-			description: "Flagship performance, Hasselblad imaging, 80W SuperVOOC.",
-			link: "https://www.oneplus.com/cn/13t",
+			name: "iPhone 16 Pro",
+			image: "/images/device/iphone-16-pro.png",
+			specs: "Desert Titanium / 512GB",
+			description:
+				"Titanium design, Latest-generation Ceramic Shield front, Textured matte glass back",
+			link: "https://support.apple.com/en-us/121031",
 		},
 	],
-	Router: [
+	iPad: [
 		{
-			name: "GL-MT3000",
-			image: "/images/device/mt3000.png",
-			specs: "1000Mbps / 2.5G",
+			name: "iPad Pro 11‑inch (M4)",
+			image: "/images/device/ipad-pro-11-inch.png",
+			specs: "Space Black / 256GB",
 			description:
-				"Portable WiFi 6 router suitable for business trips and home use.",
-			link: "https://www.gl-inet.cn/products/gl-mt3000/",
+				"The ultimate iPad experience with the most advanced technology.",
+			link: "https://support.apple.com/en-us/119892",
+		},
+	],
+	Macbook: [
+		{
+			name: "MacBook Pro",
+			image: "/images/device/mbp14-silver2.png",
+			specs: "Silver / 8-core CPU / 14-core GPU / 16GB / 1TB",
+			description: "Game-changing MacBook Pro",
+			link: "https://support.apple.com/en-us/111902",
 		},
 	],
 };
