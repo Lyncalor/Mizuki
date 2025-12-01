@@ -1,0 +1,7 @@
+{
+	"name": "mizuki-blog", // 只能用小写英文字母和短横线，自己随便起
+	"compatibility_date": "2025-12-01", // 填你部署当天的日期
+	"assets": {
+		"directory": "./dist" // Astro 打包后的目录
+	}
+}
