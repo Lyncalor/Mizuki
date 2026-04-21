@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "lyncalor-mizuki",
+  "name": "lyncalor-blog",
   "compatibility_date": "2026-04-21",
   "assets": {
     "directory": "./dist",
